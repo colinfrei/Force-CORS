@@ -1,0 +1,16 @@
+{
+  "name": "forcecors",
+  "title": "Force CORS",
+  "id": "jid1-nH1ByAes1C4rwA",
+  "description": "Extension to force CORS headers",
+  "author": "Josef Pfleger, Colin Frei",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [{
+    "name": "headers",
+    "title": "Force CORS headers",
+    "description": "Headers to add to force CORS",
+    "type": "string",
+    "value": "Access-Control-Allow-Origin *|Access-Control-Allow-Methods POST,GET"
+  }]
+}
