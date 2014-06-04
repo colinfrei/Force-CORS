@@ -1,20 +1,20 @@
 {
-  "name": "forcecors",
-  "title": "Force CORS",
-  "id": "jid1-nH1ByAes1C4rwA",
-  "description": "Extension to force CORS headers",
-  "author": "Josef Pfleger, Colin Frei",
+  "name": "corsinjecter",
+  "title": "CORS injecter",
+  "id": "jid1-ASOoLTsR8COOBA",
+  "description": "Extension to inject wide-open CORS headers on-demand, either for a browser session of for given referrers",
+  "author": "Josef Pfleger, Colin Frei, Frédéric Langlade-Bellone",
   "license": "MPL 2.0",
   "version": "0.1",
   "preferences": [{
     "name": "headers",
-    "title": "Force CORS headers",
-    "description": "Headers to add to force CORS separated by a |",
+    "title": "Headers to inject",
+    "description": "Headers to inject in order to get CORS access separated by a |",
     "type": "string",
     "value": "Access-Control-Allow-Origin *|Access-Control-Allow-Methods POST,GET"
   }, {
     "name": "auto-enabled-referrers",
-    "title": "Referrers for which CORS should be automatically forced",
+    "title": "Referrers for which CORS should be automatically injected",
     "description": "Referrers separated by a |",
     "type": "string",
     "value": ""

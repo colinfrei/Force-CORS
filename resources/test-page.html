@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Force cors test</title>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            $.get('http://www.google.fr')
+                .done(function(){alert("OK");})
+                .fail(function(){alert("ERROR");});
+        </script>
+    </body>
+</html>
