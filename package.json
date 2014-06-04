@@ -1,6 +1,6 @@
 {
-  "name": "corsinjecter",
-  "title": "CORS injecter",
+  "name": "corsinjector",
+  "title": "CORS injector",
   "id": "jid1-ASOoLTsR8COOBA",
   "description": "Extension to inject wide-open CORS headers on-demand, either for a browser session of for given referrers",
   "author": "Josef Pfleger, Colin Frei, Frédéric Langlade-Bellone",
