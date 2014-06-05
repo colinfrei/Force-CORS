@@ -15,4 +15,4 @@ deploy:
   file: corsinjector.xpi
   skip_cleanup: true
   on:
-    repo: fredericlb/Force-CORS
+    tags: true
