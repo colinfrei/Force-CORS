@@ -5,7 +5,7 @@
   "description": "Extension to inject wide-open CORS headers on-demand, either for a browser session of for given referrers",
   "author": "Josef Pfleger, Colin Frei, Frédéric Langlade-Bellone",
   "license": "MPL 2.0",
-  "version": "0.1",
+  "version": "0.1.0",
   "preferences": [{
     "name": "headers",
     "title": "Headers to inject",
