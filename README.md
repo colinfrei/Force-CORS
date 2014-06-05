@@ -11,6 +11,14 @@ This version also includes :
 
 Warning: This extension essentially disables the browser's same origin policy which has serious security ramifications. Don't use it if you don't know what you're doing.
 
+## Troubleshootings
+
+### Preflight and non-200 errors
+
+When Firefox sends the OPTIONS request to the requested server, it should respond 200, otherwise CORS headers injection won't be
+allowed.
+The cleanest way to solve this issue would be to modify the request and redirect it to a fake url which returns 200. But I haven't find a way to do this yet.
+
 
 ## Credits
 
