@@ -1,4 +1,4 @@
-# Cors Injector
+# Force CORS
 
 ## Description
 
