@@ -1,0 +1,18 @@
+language: node_js
+before_script:
+- sh -e /etc/init.d/xvfb start
+- git submodule update --init
+- cd addon-sdk
+- . bin/activate
+- cd ../
+env:
+- DISPLAY=':99.0'
+script: cfx xpi
+deploy:
+  provider: releases
+  api_key:
+    secure: MY3VEtZ2+j5O3hR6/vPWVuA9BoMtQq1VTlUAhL7uElNOVZmJ6EWmQbnVTgtFYuScBxQUt4zxlmZOW9vaZTFMHFlbSdG6G4MUEvSmgsvNBwcMgvjLPiRVNx/UvpQGXpzj0pW8qMnrFA/xHeTyeXdVRP6KXYZQLxZ3dxjtdia/jyU=
+  file: corsinjector.xpi
+  skip_cleanup: true
+  on:
+    tags: true
